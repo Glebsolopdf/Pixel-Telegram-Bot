@@ -145,7 +145,7 @@ def print_startup_banner():
 ║                                             ║
 ║                                             ║    
 ║ Telegram Bot           by GlebSoloProjects  ║
-║ Version: 1.12          https://pixel-ut.pro ║
+║ Version: 1.13          https://pixel-ut.pro ║
 ╚═════════════════════════════════════════════╝
     """
     print(banner)
@@ -157,7 +157,7 @@ def print_success_message():
 ╔═════════════════╗
 ║                 ║
 ║ УСПЕШНЫЙ ЗАПУСК ║
-║          V 1.12 ║
+║          V 1.13 ║
 ╚═════════════════╝
 
     """
