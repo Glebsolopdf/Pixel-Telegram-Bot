@@ -54,6 +54,7 @@ from handlers.network import register_network_handlers
 from handlers.raid_protection import register_raid_protection_handlers
 from handlers.top_chats import register_top_chats_handlers
 from handlers.initial_setup import register_initial_setup_handlers
+from inline.whisper import register_whisper_handlers
 
 logging.basicConfig(
     level=logging.INFO if not DEBUG else logging.DEBUG,
@@ -91,6 +92,7 @@ register_network_handlers(dp, bot)
 register_raid_protection_handlers(dp, bot)
 register_top_chats_handlers(dp, bot)
 register_initial_setup_handlers(dp, bot)
+register_whisper_handlers(dp, bot)
 
 
 def signal_handler(signum, frame):
