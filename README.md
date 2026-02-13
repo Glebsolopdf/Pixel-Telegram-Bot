@@ -107,7 +107,6 @@ pip install -r requirements.txt
 1. **Клонируйте репозиторий:**
    ```bash
    git clone <repository-url>
-   cd PX
    ```
 
 2. **Установите зависимости:**
